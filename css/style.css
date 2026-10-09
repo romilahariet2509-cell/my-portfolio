@@ -201,3 +201,31 @@ button:focus {
         font-size: 32px;
     }
 }
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.todo-item span {
+    flex: 1 1 200px;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.todo-item button {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 10px 18px;
+}
+
+.todo-item input[type="checkbox"] {
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+}

@@ -1,4 +1,4 @@
-```javascript
+
 const taskForm = document.getElementById("todo-form");
 const taskInput = document.getElementById("task-input");
 const taskList = document.getElementById("task-list");
@@ -180,4 +180,3 @@ document.querySelector(".todo-filters").addEventListener("click", function (even
 
 // Initial display
 renderTasks();
-```
